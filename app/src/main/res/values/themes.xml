@@ -6,4 +6,14 @@
     </style>
 
     <style name="Theme.WorkoutApp" parent="Base.Theme.WorkoutApp" />
+    
+    <style name="Style.App.circleImageView" parent="">
+        <item name="shapeAppearance">@style/ShapeAppearanceOverlay.App.circleImageView</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.circleImageView" parent="">
+        <item name="cornerSize">10dp</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+    
 </resources>
